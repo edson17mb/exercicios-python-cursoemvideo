@@ -1,0 +1,7 @@
+print('Programa que lê um número e mostra seu dobro, tripo e raiz quadrada.')
+print('--------------------------------------------------------------------')
+n = int(input('Digite um número: '))
+print('O número digitado é {}'.format(n))
+print('O dobro é {}'.format(n*2))
+print('O tripo é {}'.format(n*3))
+print('A raiz quadrada é {:.2f}'.format(pow(n,1/2)))

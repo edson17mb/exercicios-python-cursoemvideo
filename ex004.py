@@ -1,0 +1,8 @@
+print('Programa que mostra informações do que foi digitado')
+print('--------------------------------------------------')
+digitado = input ('Digite algo: ')
+print('O tipo primitivo desse valor é {}'.format(type(digitado)))
+print('Só tem espaços? {}'.format(digitado.isspace()))
+print('E um número? {}'.format(digitado.isnumeric()))
+print('E alfabetico? {}'.format(digitado.isalpha()))
+print('Esta em alfanumerico? {}'.format(digitado.isalnum()))

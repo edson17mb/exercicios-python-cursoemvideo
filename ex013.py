@@ -1,0 +1,5 @@
+print('Programa que lê o salário de um funcionário e mostre o novo salário, com 15% de aumento')
+print('-'*87)
+salário = float(input('Digite o valor do salário: '))
+aumento = salário + (salário *15 / 100)
+print('O novo salário é {:.2f}'.format(aumento))
